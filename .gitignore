@@ -1,0 +1,29 @@
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/frontend.log
+
+# Backend
+backend/.venv/
+backend/__pycache__/
+backend/backend.log
+**/__pycache__/
+*.pyc
+
+# Local env
+.env
+.env.*
+!.env.example
+!frontend/.env.example
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Reports and coverage
+coverage/
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+*.log
